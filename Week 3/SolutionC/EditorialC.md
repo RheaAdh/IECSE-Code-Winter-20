@@ -1,0 +1,1 @@
+Here, using maps, count the number of times an element repeats in the array and store it in m1[100]. Then calculate the number of pairs of equal sticks (i.e, summation[m1[i]/2] for 1<=i<=100). For every frame you need 2 if such pairs and you can choose it in any order. Therefore the answer will be z = [k / 2].
