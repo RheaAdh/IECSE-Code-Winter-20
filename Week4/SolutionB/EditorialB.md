@@ -1,0 +1,3 @@
+We should use that the letter queries are given in increasing order of room numbers. We will store in a variable sum the number of rooms in already considered hostels (this variable should have 64-bit type) and in a variable idx we will store the minimum number of hostel where the room from the current letter possibly is. Initially, sum=0 and idx=1.
+
+We will iterate through the letters. Let the current letter should be delivered to the room x. While sum+aidx<x, we increase sum by aidx and increase idx by one. So, we got the hostel number where room x is. It only remains to print two integers: idx (the hostel number) and (x−sum) (the room number in this hostel).
